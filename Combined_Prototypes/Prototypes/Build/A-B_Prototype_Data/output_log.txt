@@ -1,0 +1,350 @@
+Mono path[0] = 'C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Build/A-B_Prototype_Data/Managed'
+Mono path[1] = 'C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Build/A-B_Prototype_Data/Mono'
+Mono config path = 'C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Build/A-B_Prototype_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Build/A-B_Prototype_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55272
+Multi-casting "[IP] 10.0.0.1 [Port] 55272 [Flags] 2 [Guid] 2505771131 [EditorId] 976630229 [Version] 1048832 [Id] WindowsPlayer(AL15-H5LBWF2) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55272]
+PlayerConnection already initialized - listening to [0.0.0.0:55272]
+Initialize engine version: 5.5.2f1 (3829d7f588f3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1be1)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   21.20.16.4574
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Build\A-B_Prototype_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Build\A-B_Prototype_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Build\A-B_Prototype_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Build\A-B_Prototype_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Build\A-B_Prototype_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Build\A-B_Prototype_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Build\A-B_Prototype_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Build\A-B_Prototype_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Build\A-B_Prototype_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Build\A-B_Prototype_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.029 seconds
+Platform assembly: C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Build\A-B_Prototype_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Build\A-B_Prototype_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.512374 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: d14 -> priority: 1 
+  Thread -> id: 116c -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.848858 ms
+System memory in use before: 16.8 MB.
+System memory in use after: 16.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 431.
+Total: 0.277156 ms (FindLiveObjects: 0.025035 ms CreateObjectMapping: 0.016220 ms MarkObjects: 0.214038 ms  DeleteObjects: 0.009168 ms)
+
+interactedToy1(Clone) (UnityEngine.GameObject) with tag: Toy1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:54)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 54)
+
+InteractObject: Toy1(Clone) (UnityEngine.GameObject) with tag: Toy1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:77)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:55)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 77)
+
+interactedTemp_Converter (UnityEngine.GameObject) with tag: Converter
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:54)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 54)
+
+InteractObject: Temp_Converter (UnityEngine.GameObject) with tag: Converter
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:77)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:55)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 77)
+
+interactedToy1(Clone) (UnityEngine.GameObject) with tag: Toy1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:54)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 54)
+
+InteractObject: Toy1(Clone) (UnityEngine.GameObject) with tag: Toy1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:77)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:55)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 77)
+
+interactedToy1(Clone) (UnityEngine.GameObject) with tag: Toy1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:54)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 54)
+
+InteractObject: Toy1(Clone) (UnityEngine.GameObject) with tag: Toy1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:77)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:55)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 77)
+
+interactedToy1(Clone) (UnityEngine.GameObject) with tag: Toy1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:54)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 54)
+
+InteractObject: Toy1(Clone) (UnityEngine.GameObject) with tag: Toy1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:77)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:55)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 77)
+
+interactedTempConveyor (UnityEngine.GameObject) with tag: Conveyor
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:54)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 54)
+
+InteractObject: TempConveyor (UnityEngine.GameObject) with tag: Conveyor
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:77)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:55)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 77)
+
+interactedToy1(Clone) (UnityEngine.GameObject) with tag: Toy1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:54)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 54)
+
+InteractObject: Toy1(Clone) (UnityEngine.GameObject) with tag: Toy1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:77)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:55)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 77)
+
+interactedTempConveyor (UnityEngine.GameObject) with tag: Conveyor
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:54)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 54)
+
+InteractObject: TempConveyor (UnityEngine.GameObject) with tag: Conveyor
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:77)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:55)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 77)
+
+interactedToy1(Clone) (UnityEngine.GameObject) with tag: Toy1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:54)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 54)
+
+InteractObject: Toy1(Clone) (UnityEngine.GameObject) with tag: Toy1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:77)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:55)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 77)
+
+interactedTempConveyor (UnityEngine.GameObject) with tag: Conveyor
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:54)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 54)
+
+InteractObject: TempConveyor (UnityEngine.GameObject) with tag: Conveyor
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:77)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:55)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 77)
+
+interactedToy1(Clone) (UnityEngine.GameObject) with tag: Toy1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:54)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 54)
+
+InteractObject: Toy1(Clone) (UnityEngine.GameObject) with tag: Toy1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:77)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:55)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 77)
+
+interactedTemp_Converter (UnityEngine.GameObject) with tag: Converter
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:54)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 54)
+
+InteractObject: Temp_Converter (UnityEngine.GameObject) with tag: Converter
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:77)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:55)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 77)
+
+interactedToy1(Clone) (UnityEngine.GameObject) with tag: Toy1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:54)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 54)
+
+InteractObject: Toy1(Clone) (UnityEngine.GameObject) with tag: Toy1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:77)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:55)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 77)
+
+interactedTemp_Converter (UnityEngine.GameObject) with tag: Converter
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:54)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 54)
+
+InteractObject: Temp_Converter (UnityEngine.GameObject) with tag: Converter
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:77)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:55)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 77)
+
+interactedToy1(Clone) (UnityEngine.GameObject) with tag: Toy1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:54)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 54)
+
+InteractObject: Toy1(Clone) (UnityEngine.GameObject) with tag: Toy1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:77)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:55)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 77)
+
+interactedTemp_Converter (UnityEngine.GameObject) with tag: Converter
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:54)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 54)
+
+InteractObject: Temp_Converter (UnityEngine.GameObject) with tag: Converter
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ToyCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:77)
+ToyCollector:Update() (at C:\Users\Student\Desktop\Honours\Prototypes\PrototypeA-B\A-B_Prototype\Assets\Scripts\ToyCollector.cs:55)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Prototypes/PrototypeA-B/A-B_Prototype/Assets/Scripts/ToyCollector.cs Line: 77)
+
