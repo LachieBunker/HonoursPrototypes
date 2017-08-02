@@ -10,6 +10,8 @@ public class Converter : baseInteractionObjectClass {
     public GameObject object1Prefab;
     public GameObject object2Prefab;
     public float convertDuration;
+    public Material activeMat;
+    public Material inactiveMat;
     public Vector3 outputPos;
     Conveyor conveyor;
 
@@ -33,6 +35,7 @@ public class Converter : baseInteractionObjectClass {
         if (isServer)
         {
             busy = true;
+            gameObject.GetComponent<MeshRenderer>().material = activeMat;
             RpcSyncClient(true);
             _object.transform.parent = gameObject.transform;/*
             _object.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
@@ -70,9 +73,10 @@ public class Converter : baseInteractionObjectClass {
     {
         if(isServer)
         {
-            yield return new WaitForSeconds(convertDuration);
             Destroy(_object);
+            yield return new WaitForSeconds(convertDuration);
             busy = false;
+            gameObject.GetComponent<MeshRenderer>().material = inactiveMat;
             RpcSyncClient(false);
             if (objectNum == 1)
             {
@@ -103,6 +107,14 @@ public class Converter : baseInteractionObjectClass {
         if(isClient)
         {
             busy = _busy;
+            if(busy)
+            {
+                gameObject.GetComponent<MeshRenderer>().material = activeMat;
+            }
+            else if(!busy)
+            {
+                gameObject.GetComponent<MeshRenderer>().material = inactiveMat;
+            }
         }
     }
 }

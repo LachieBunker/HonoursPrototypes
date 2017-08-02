@@ -112,6 +112,7 @@ public class ToyCollector : CharacterClass {
         currentObject = _object;
         _object.transform.parent = gameObject.transform;
         _object.transform.localPosition = holdingObjectPos;
+        _object.transform.localRotation = Quaternion.Euler(0, 0, 0);
         CmdPickUpObject(_object);
     }
 
@@ -151,6 +152,7 @@ public class ToyCollector : CharacterClass {
             currentObject = _object;
             _object.transform.parent = gameObject.transform;
             _object.transform.localPosition = holdingObjectPos;
+            _object.transform.localRotation = Quaternion.Euler(0, 0, 0);
         }
     }
 

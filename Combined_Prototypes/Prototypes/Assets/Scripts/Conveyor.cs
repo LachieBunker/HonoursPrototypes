@@ -35,7 +35,7 @@ public class Conveyor : baseInteractionObjectClass {
             {
                 object1Queue.Add(_object);
                 _object.transform.parent = gameObject.transform;
-                _object.transform.localPosition = new Vector3(object1Pos.x, object1Pos.y, (object1Pos.z * object1Queue.Count-1));
+                _object.transform.localPosition = new Vector3(object1Pos.x, object1Pos.y, 1 + (object1Pos.z * object1Queue.Count-1));
                 _object.transform.rotation = Quaternion.Euler(0, -90, 0);
                 PositionObjectQueue(object1Queue, 1);
             }
@@ -43,11 +43,11 @@ public class Conveyor : baseInteractionObjectClass {
             {
                 object2Queue.Add(_object);
                 _object.transform.parent = gameObject.transform;
-                _object.transform.localPosition = new Vector3(object2Pos.x, object2Pos.y, (object2Pos.z * object2Queue.Count-1));
+                _object.transform.localPosition = new Vector3(object2Pos.x, object2Pos.y, 1+ (object2Pos.z * object2Queue.Count-1));
                 _object.transform.rotation = Quaternion.Euler(0, -90, 0);
                 PositionObjectQueue(object2Queue, 2);
             }
-
+            UpdateObjectTexts("string");
             //RpcDepositObject(_object, obNum);
 
             if (object1Queue.Count > 0 && object2Queue.Count > 0)//If there is at least one object in each queue
@@ -64,7 +64,9 @@ public class Conveyor : baseInteractionObjectClass {
         {
             objectTexts[0].text = object1Queue.Count + "/" + queueLimit;
             objectTexts[1].text = object2Queue.Count + "/" + queueLimit;
-            RpcUpdateObjectTexts(_text);
+            string tempText = object1Queue.Count + "/" + queueLimit + ',' + object2Queue.Count + "/" + queueLimit;
+            Debug.Log(tempText);
+            RpcUpdateObjectTexts(tempText);
         }
     }
 
@@ -80,7 +82,7 @@ public class Conveyor : baseInteractionObjectClass {
 
                 object1Queue.Add(_object);
                 _object.transform.parent = gameObject.transform;
-                _object.transform.position = new Vector3(object1Pos.x, object1Pos.y, (object1Pos.z * object1Queue.Count));
+                _object.transform.position = new Vector3(object1Pos.x, object1Pos.y, 1 + (object1Pos.z * object1Queue.Count));
                 _object.transform.rotation = Quaternion.Euler(0, -90, 0);
                 PositionObjectQueue(object1Queue, 1);
             }
@@ -88,7 +90,7 @@ public class Conveyor : baseInteractionObjectClass {
             {
                 object2Queue.Add(_object);
                 _object.transform.parent = gameObject.transform;
-                _object.transform.position = new Vector3(object2Pos.x, object2Pos.y, (object2Pos.z * object2Queue.Count));
+                _object.transform.position = new Vector3(object2Pos.x, object2Pos.y, 1 + (object2Pos.z * object2Queue.Count));
                 _object.transform.rotation = Quaternion.Euler(0, -90, 0);
                 PositionObjectQueue(object2Queue, 2);
             }
@@ -101,8 +103,11 @@ public class Conveyor : baseInteractionObjectClass {
     {
         if (isClient)
         {
-            objectTexts[0].text = object1Queue.Count + "/" + queueLimit;
-            objectTexts[1].text = object2Queue.Count + "/" + queueLimit;
+            string[] obScores = _text.Split(',');
+            //float queue1 = int.Parse(obScores[0]);
+            //float queue2 = int.Parse(obScores[1]);
+            objectTexts[0].text = obScores[0];
+            objectTexts[1].text = obScores[1];
         }
     }
 
@@ -120,7 +125,7 @@ public class Conveyor : baseInteractionObjectClass {
         }
         for (int i = 0; i < obQueue.Count; i++)
         {
-            obQueue[i].transform.localPosition = new Vector3(pos.x, pos.y, (pos.z * i));
+            obQueue[i].transform.localPosition = new Vector3(pos.x, pos.y, 1 + (pos.z * i));
         }
     }
 
@@ -145,6 +150,7 @@ public class Conveyor : baseInteractionObjectClass {
             PositionObjectQueue(object1Queue, 1);
             PositionObjectQueue(object2Queue, 2);
             //RpcDeliverObjects(numObjects);
+            UpdateObjectTexts("string");
         }
         
     }
