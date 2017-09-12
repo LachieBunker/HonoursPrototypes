@@ -91,16 +91,16 @@ public class GameManager : NetworkBehaviour {
             {
                 Menu();
             }
+            if (Input.GetKeyDown(KeyCode.H) && !playing)
+            {
+                StartGame();
+            }
+            if (Input.GetKeyDown(KeyCode.J) && !playing)
+            {
+                StartCoroutine(DelayStart(2));
+            }
         }
-
-        if (Input.GetKeyDown(KeyCode.H) && !playing)
-        {
-            StartGame();
-        }
-        if (Input.GetKeyDown(KeyCode.J) && !playing)
-        {
-            StartCoroutine( DelayStart(2));
-        }
+        
     }
 
     //Sync the client timers with the server timer
@@ -192,8 +192,25 @@ public class GameManager : NetworkBehaviour {
                 }
             }
         }
+        else if (spawnMode == 2)//Spawn each object, split between two different zones
+        {
+            for (int j = 0; j < objectPrefabs.Length; j++)
+            {
+                int spawnZone = 0;
+                for (int i = 0; i < numObjectToSpawn; i++)
+                {
+                    if(i > numObjectToSpawn/2)
+                    {
+                        spawnZone = 1;
+                    }
+                    float xPos = Random.Range((objectSpawnRange.x * spawnZone) - objectSpawnRange.x, (objectSpawnRange.x * spawnZone));
+                    float zPos = Random.Range(-objectSpawnRange.z, objectSpawnRange.z);
+                    NetworkServer.Spawn(Instantiate(objectPrefabs[j], new Vector3(xPos, objectSpawnRange.y, zPos), Quaternion.identity));
+                }
+            }
+        }
         //Add third spawn mode that spawns random object from prefabs
-        
+
     }
 
     //Display the results of the game

@@ -34,6 +34,7 @@ public class Converter : baseInteractionObjectClass {
     {
         if (isServer)
         {
+            Debug.Log("Recieved deposit item: " + _object + " num: " + obNum);
             busy = true;
             gameObject.GetComponent<MeshRenderer>().material = activeMat;
             RpcSyncClient(true);
