@@ -12,7 +12,7 @@ public class Tute_CartMover : Tute_CharacterClass {
     void Start ()
     {
         pRole = PlayerRoles.CartMover;
-        gManager = GameObject.FindGameObjectWithTag("GameController").GetComponent<Tute_GameManager>();
+        //gManager = GameObject.FindGameObjectWithTag("GameController").GetComponent<Tute_GameManager>();
         GetComponent<MeshRenderer>().material.color = Color.blue;
         GameObject cam = GameObject.FindGameObjectWithTag("MainCamera");
         cam.transform.parent = gameObject.transform;

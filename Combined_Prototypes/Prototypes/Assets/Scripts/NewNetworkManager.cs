@@ -5,16 +5,22 @@ using UnityEngine.Networking;
 
 public class NewNetworkManager : NetworkManager {
 
-    public GameObject playerRole1Prefab;
-    public GameObject playerRole2Prefab;
+    public int levelNum;
+    public GameObject[] playerRole1Prefab;
+    public GameObject[] playerRole2Prefab;
     public Vector3 playerSpawnPos;
     public int numCurrentPlayers;
     private int pRole1Num;
     private int pRole2Num;
+    public bool isClient;
+
+    public List<string> player1Feedback = new List<string>();
+    public List<string> player2Feedback = new List<string>();
 
 	// Use this for initialization
 	void Start () {
         numCurrentPlayers = 0;
+        levelNum = 0;
         SetPlayerRoles();
 	}
 	
@@ -42,19 +48,22 @@ public class NewNetworkManager : NetworkManager {
     //When a player joins, spawn the corresponding player character, as set above
     public override void OnServerAddPlayer(NetworkConnection conn, short playerControllerId)
     {
+        //GameManager gManager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
+        //Debug.Log("server add player" + gManager.pRole1Prefab);
         numCurrentPlayers++;
         GameObject prefabToSpawn = new GameObject();
         if (numCurrentPlayers == pRole1Num)
         {
-            prefabToSpawn = playerRole1Prefab;
+            prefabToSpawn = playerRole1Prefab[levelNum];
         }
         else if (numCurrentPlayers == pRole2Num)
         {
-            prefabToSpawn = playerRole2Prefab;
+            prefabToSpawn = playerRole2Prefab[levelNum];
         }
         
         //prefabToSpawn = moverPrefab;
         var player = (GameObject)GameObject.Instantiate(prefabToSpawn, new Vector3(-6 + (4 * numCurrentPlayers), 0, 0), Quaternion.identity);
+        Debug.Log("Player: " + player);
         NetworkServer.AddPlayerForConnection(conn, player, playerControllerId);
         
     }
@@ -64,5 +73,45 @@ public class NewNetworkManager : NetworkManager {
     {
         numCurrentPlayers--;
         base.OnServerRemovePlayer(conn, player);
+    }
+
+    private void OnLevelWasLoaded(int level)
+    {
+        levelNum++;
+        numCurrentPlayers = 0;
+        SetPlayerRoles();
+        //StartCoroutine(DelaySetPRoles());
+        if (isClient)
+        {
+            ClientScene.Ready(ClientScene.readyConnection);
+        }
+    }
+
+    IEnumerator DelaySetPRoles()
+    {
+        yield return new WaitForEndOfFrame();//(0.001f);
+        GameManager gManager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
+        Debug.Log("Level loaded" + gManager);
+        //playerRole1Prefab = gManager.pRole1Prefab;
+        //playerRole2Prefab = gManager.pRole2Prefab;
+        SetPlayerRoles();
+    }
+
+    public void SubmitPlayerFeedback(string _feedback)
+    {
+        Debug.Log("NM recieved: " + _feedback);
+        string[] chars = _feedback.Split(':');
+        if(chars[0] == "1")
+        {
+            player1Feedback.Add(_feedback);
+        }
+        else if(chars[0] == "2")
+        {
+            player2Feedback.Add(_feedback);
+        }
+        else
+        {
+            Debug.Log("Player num: " + chars[0]);
+        }
     }
 }

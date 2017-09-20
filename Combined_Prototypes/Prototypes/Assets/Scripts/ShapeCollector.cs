@@ -5,6 +5,8 @@ using UnityEngine.Networking;
 
 public class ShapeCollector : CharacterClass {
 
+
+    public Vector3 playerBounds;
 	// Use this for initialization
 	void Start ()
     {
@@ -61,11 +63,27 @@ public class ShapeCollector : CharacterClass {
                 }
             }
         }
-
-
+        
         if (transform.position.y < -1)
         {
             Respawn();
+        }
+
+        if(transform.position.x < -playerBounds.x)
+        {
+            transform.position = new Vector3(-playerBounds.x, transform.position.y, transform.position.z);
+        }
+        if(transform.position.x > playerBounds.y)
+        {
+            transform.position = new Vector3(playerBounds.y, transform.position.y, transform.position.z);
+        }
+        if(transform.position.z < -playerBounds.z)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y, -playerBounds.z);
+        }
+        if (transform.position.z > playerBounds.z)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y, playerBounds.z);
         }
     }
 

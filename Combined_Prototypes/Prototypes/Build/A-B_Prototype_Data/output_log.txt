@@ -2,10 +2,10 @@ Mono path[0] = 'C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Pro
 Mono path[1] = 'C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Build/A-B_Prototype_Data/Mono'
 Mono config path = 'C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Build/A-B_Prototype_Data/Mono/etc'
 PlayerConnection initialized from C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Build/A-B_Prototype_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55189
-Broadcasting "[IP] 169.254.220.172 [Port] 55189 [Flags] 2 [Guid] 323116913 [EditorId] 492777525 [Version] 1048832 [Id] WindowsPlayer(AL15-H5LBWF2) [Debug] 0" to [169.254.255.255:54997]...
-Started listening to [0.0.0.0:55189]
-PlayerConnection already initialized - listening to [0.0.0.0:55189]
+PlayerConnection initialized network socket : 0.0.0.0 55413
+Multi-casting "[IP] 10.0.0.1 [Port] 55413 [Flags] 2 [Guid] 3673416812 [EditorId] 2564668708 [Version] 1048832 [Id] WindowsPlayer(AL15-H5LBWF2) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55413]
+PlayerConnection already initialized - listening to [0.0.0.0:55413]
 Initialize engine version: 5.5.2f1 (3829d7f588f3)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -25,121 +25,424 @@ Platform assembly: C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\
 Loading C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Build\A-B_Prototype_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Build\A-B_Prototype_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Build\A-B_Prototype_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.081 seconds
+- Completed reload, in  0.037 seconds
 Platform assembly: C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Build\A-B_Prototype_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Build\A-B_Prototype_Data\Managed\System.dll (this message is harmless)
-desktop: 1920x1080 120Hz; virtual: 1920x1080 at 0,0
+OnLevelWasLoaded was found on NewNetworkManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Mono/MonoScriptCache.cpp Line: 382)
+
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.238036 ms
+UnloadTime: 1.558919 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 44c0 -> priority: 1 
-  Thread -> id: 44ec -> priority: 1 
+  Thread -> id: 4820 -> priority: 1 
+  Thread -> id: 52a0 -> priority: 1 
+LocalPlayer
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+FeedbackManager:StartGame() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\FeedbackManager.cs:29)
+UnityEngine.Events.InvokableCall:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:153)
+UnityEngine.Events.InvokableCallList:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:634)
+UnityEngine.Events.UnityEventBase:Invoke(Object[]) (at C:\buildslave\unity\build\Runtime\Export\UnityEvent.cs:769)
+UnityEngine.Events.UnityEvent:Invoke() (at C:\buildslave\unity\build\Runtime\Export\UnityEvent_0.cs:53)
+UnityEngine.UI.Button:Press() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:35)
+UnityEngine.UI.Button:OnPointerClick(PointerEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\UI\Core\Button.cs:44)
+UnityEngine.EventSystems.ExecuteEvents:Execute(IPointerClickHandler, BaseEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:52)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\ExecuteEvents.cs:269)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:533)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32) (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:432)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:412)
+UnityEngine.EventSystems.StandaloneInputModule:Process() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\InputModules\StandaloneInputModule.cs:186)
+UnityEngine.EventSystems.EventSystem:Update() (at C:\buildslave\unity\build\Extensions\guisystem\UnityEngine.UI\EventSystem\EventSystem.cs:287)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Scripts/FeedbackManager.cs Line: 29)
+
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 5.835803 ms
-System memory in use before: 16.9 MB.
-System memory in use after: 16.9 MB.
+UnloadTime: 2.908385 ms
+System memory in use before: 23.7 MB.
+System memory in use after: 23.7 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 502.
-Total: 0.361079 ms (FindLiveObjects: 0.034203 ms CreateObjectMapping: 0.023272 ms MarkObjects: 0.277509 ms  DeleteObjects: 0.010578 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1224.
+Total: 0.924561 ms (FindLiveObjects: 0.098732 ms CreateObjectMapping: 0.079338 ms MarkObjects: 0.720749 ms  DeleteObjects: 0.009520 ms)
+
+GameManager (GameManager)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Start() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:19)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 19)
+
+interactedShape2(Clone) (UnityEngine.GameObject) with tag: Object2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
+
+InteractObject: Shape2(Clone) (UnityEngine.GameObject) with tag: Object2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
+
+interactedCartObject (UnityEngine.GameObject) with tag: Cart
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
+
+InteractObject: CartObject (UnityEngine.GameObject) with tag: Cart
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
+
+interactedShape2Bin (UnityEngine.GameObject) with tag: Object2Bin
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
+
+InteractObject: Shape2Bin (UnityEngine.GameObject) with tag: Object2Bin
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
+
+interactedShape2(Clone) (UnityEngine.GameObject) with tag: Object2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
+
+InteractObject: Shape2(Clone) (UnityEngine.GameObject) with tag: Object2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
+
+interactedShape2Bin (UnityEngine.GameObject) with tag: Object2Bin
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
+
+InteractObject: Shape2Bin (UnityEngine.GameObject) with tag: Object2Bin
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
+
+interactedToy2(Clone) (UnityEngine.GameObject) with tag: Toy2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
+
+InteractObject: Toy2(Clone) (UnityEngine.GameObject) with tag: Toy2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
+
+interactedConveyor (UnityEngine.GameObject) with tag: Conveyor
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
+
+InteractObject: Conveyor (UnityEngine.GameObject) with tag: Conveyor
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
+
+interactedToy2(Clone) (UnityEngine.GameObject) with tag: Toy2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
+
+InteractObject: Toy2(Clone) (UnityEngine.GameObject) with tag: Toy2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
+
+interactedConveyor (UnityEngine.GameObject) with tag: Conveyor
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
+
+InteractObject: Conveyor (UnityEngine.GameObject) with tag: Conveyor
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
+
+interactedToy1(Clone) (UnityEngine.GameObject) with tag: Toy1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
+
+InteractObject: Toy1(Clone) (UnityEngine.GameObject) with tag: Toy1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
+
+interactedConveyor (UnityEngine.GameObject) with tag: Conveyor
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
+
+InteractObject: Conveyor (UnityEngine.GameObject) with tag: Conveyor
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
+
+interactedToy2(Clone) (UnityEngine.GameObject) with tag: Toy2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
+
+InteractObject: Toy2(Clone) (UnityEngine.GameObject) with tag: Toy2
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
+
+interactedConverter (UnityEngine.GameObject) with tag: Converter
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
+
+InteractObject: Converter (UnityEngine.GameObject) with tag: Converter
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
+
+interactedToy1(Clone) (UnityEngine.GameObject) with tag: Toy1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
+
+InteractObject: Toy1(Clone) (UnityEngine.GameObject) with tag: Toy1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
+
+interactedConverter (UnityEngine.GameObject) with tag: Converter
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
+
+InteractObject: Converter (UnityEngine.GameObject) with tag: Converter
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
+
+interactedToy1(Clone) (UnityEngine.GameObject) with tag: Toy1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
+
+InteractObject: Toy1(Clone) (UnityEngine.GameObject) with tag: Toy1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
+
+interactedConverter (UnityEngine.GameObject) with tag: Converter
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
+
+InteractObject: Converter (UnityEngine.GameObject) with tag: Converter
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
 
 interactedShape1(Clone) (UnityEngine.GameObject) with tag: Object1
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-ShapeCollector:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:51)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
  
-(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Scripts/ShapeCollector.cs Line: 51)
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
 
 InteractObject: Shape1(Clone) (UnityEngine.GameObject) with tag: Object1
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-ShapeCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:75)
-ShapeCollector:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:52)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
  
-(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Scripts/ShapeCollector.cs Line: 75)
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
 
-interactedShape1(Clone) (UnityEngine.GameObject) with tag: Object1
+interactedShape1Bin (UnityEngine.GameObject) with tag: Object1Bin
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-ShapeCollector:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:51)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
  
-(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Scripts/ShapeCollector.cs Line: 51)
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
 
-InteractObject: Shape1(Clone) (UnityEngine.GameObject) with tag: Object1
+InteractObject: Shape1Bin (UnityEngine.GameObject) with tag: Object1Bin
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-ShapeCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:75)
-ShapeCollector:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:52)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
  
-(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Scripts/ShapeCollector.cs Line: 75)
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
 
-interactedTempShapeBin2 (UnityEngine.GameObject) with tag: Object2Bin
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ShapeCollector:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:51)
- 
-(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Scripts/ShapeCollector.cs Line: 51)
-
-InteractObject: TempShapeBin2 (UnityEngine.GameObject) with tag: Object2Bin
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ShapeCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:75)
-ShapeCollector:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:52)
- 
-(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Scripts/ShapeCollector.cs Line: 75)
-
-interactedTempShapeBin2 (UnityEngine.GameObject) with tag: Object2Bin
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ShapeCollector:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:51)
- 
-(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Scripts/ShapeCollector.cs Line: 51)
-
-InteractObject: TempShapeBin2 (UnityEngine.GameObject) with tag: Object2Bin
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ShapeCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:75)
-ShapeCollector:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:52)
- 
-(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Scripts/ShapeCollector.cs Line: 75)
-
-interactedTempShapeBin1 (UnityEngine.GameObject) with tag: Object1Bin
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ShapeCollector:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:51)
- 
-(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Scripts/ShapeCollector.cs Line: 51)
-
-InteractObject: TempShapeBin1 (UnityEngine.GameObject) with tag: Object1Bin
-UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
-UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-ShapeCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:75)
-ShapeCollector:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:52)
- 
-(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Scripts/ShapeCollector.cs Line: 75)
-
-Did not find target for sync message for 10
+Did not find target for sync message for 29
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
@@ -159,131 +462,196 @@ UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-ShapeCollector:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:51)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
  
-(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Scripts/ShapeCollector.cs Line: 51)
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
 
 InteractObject: Shape1(Clone) (UnityEngine.GameObject) with tag: Object1
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-ShapeCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:75)
-ShapeCollector:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:52)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
  
-(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Scripts/ShapeCollector.cs Line: 75)
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
 
-interactedShape1(Clone) (UnityEngine.GameObject) with tag: Object1
+interactedShape1Bin (UnityEngine.GameObject) with tag: Object1Bin
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-ShapeCollector:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:51)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
  
-(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Scripts/ShapeCollector.cs Line: 51)
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
 
-InteractObject: Shape1(Clone) (UnityEngine.GameObject) with tag: Object1
+InteractObject: Shape1Bin (UnityEngine.GameObject) with tag: Object1Bin
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-ShapeCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:75)
-ShapeCollector:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:52)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
  
-(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Scripts/ShapeCollector.cs Line: 75)
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
 
-interactedTempShapeBin1 (UnityEngine.GameObject) with tag: Object1Bin
+interactedTempFruit(Clone) (UnityEngine.GameObject) with tag: PickUp
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-ShapeCollector:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:51)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
  
-(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Scripts/ShapeCollector.cs Line: 51)
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
 
-InteractObject: TempShapeBin1 (UnityEngine.GameObject) with tag: Object1Bin
+InteractObject: TempFruit(Clone) (UnityEngine.GameObject) with tag: PickUp
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-ShapeCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:75)
-ShapeCollector:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:52)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
  
-(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Scripts/ShapeCollector.cs Line: 75)
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
 
-interactedShape1(Clone) (UnityEngine.GameObject) with tag: Object1
+interactedCartObject (UnityEngine.GameObject) with tag: Cart
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-ShapeCollector:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:51)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
  
-(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Scripts/ShapeCollector.cs Line: 51)
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
 
-InteractObject: Shape1(Clone) (UnityEngine.GameObject) with tag: Object1
+InteractObject: CartObject (UnityEngine.GameObject) with tag: Cart
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-ShapeCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:75)
-ShapeCollector:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:52)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
  
-(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Scripts/ShapeCollector.cs Line: 75)
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
 
-interactedTempShapeBin1 (UnityEngine.GameObject) with tag: Object1Bin
+interactedTempFruit(Clone) (UnityEngine.GameObject) with tag: PickUp
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-ShapeCollector:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:51)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
  
-(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Scripts/ShapeCollector.cs Line: 51)
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
 
-InteractObject: TempShapeBin1 (UnityEngine.GameObject) with tag: Object1Bin
+InteractObject: TempFruit(Clone) (UnityEngine.GameObject) with tag: PickUp
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-ShapeCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:75)
-ShapeCollector:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:52)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
  
-(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Scripts/ShapeCollector.cs Line: 75)
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
 
-interactedShape1(Clone) (UnityEngine.GameObject) with tag: Object1
+interactedCartObject (UnityEngine.GameObject) with tag: Cart
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-ShapeCollector:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:51)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
  
-(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Scripts/ShapeCollector.cs Line: 51)
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
 
-InteractObject: Shape1(Clone) (UnityEngine.GameObject) with tag: Object1
+InteractObject: CartObject (UnityEngine.GameObject) with tag: Cart
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-ShapeCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:75)
-ShapeCollector:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:52)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
  
-(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Scripts/ShapeCollector.cs Line: 75)
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
 
-interactedTempShapeBin1 (UnityEngine.GameObject) with tag: Object1Bin
+interactedTempFruit(Clone) (UnityEngine.GameObject) with tag: PickUp
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-ShapeCollector:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:51)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
  
-(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Scripts/ShapeCollector.cs Line: 51)
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
 
-InteractObject: TempShapeBin1 (UnityEngine.GameObject) with tag: Object1Bin
+InteractObject: TempFruit(Clone) (UnityEngine.GameObject) with tag: PickUp
 UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-ShapeCollector:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:75)
-ShapeCollector:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Scripts\ShapeCollector.cs:52)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
  
-(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Scripts/ShapeCollector.cs Line: 75)
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
+
+interactedCartObject (UnityEngine.GameObject) with tag: Cart
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
+
+InteractObject: CartObject (UnityEngine.GameObject) with tag: Cart
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
+
+interactedTempFruit(Clone) (UnityEngine.GameObject) with tag: PickUp
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
+
+InteractObject: TempFruit(Clone) (UnityEngine.GameObject) with tag: PickUp
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
+
+interactedCartObject (UnityEngine.GameObject) with tag: Cart
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:57)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 57)
+
+InteractObject: CartObject (UnityEngine.GameObject) with tag: Cart
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Tute_CharacterClass:Interact(GameObject, String) (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:98)
+Tute_CharacterClass:Update() (at C:\Users\Student\Desktop\Honours\Git-Dir\Combined_Prototypes\Prototypes\Assets\Tutorials\Tute_CharacterClass.cs:58)
+ 
+(Filename: C:/Users/Student/Desktop/Honours/Git-Dir/Combined_Prototypes/Prototypes/Assets/Tutorials/Tute_CharacterClass.cs Line: 98)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.980275 ms
+System memory in use before: 23.8 MB.
+System memory in use after: 23.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1114.
+Total: 0.663625 ms (FindLiveObjects: 0.040903 ms CreateObjectMapping: 0.041256 ms MarkObjects: 0.549024 ms  DeleteObjects: 0.031735 ms)
 

@@ -17,11 +17,11 @@ public class ShapeBin : baseInteractionObjectClass {
             gManager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
             if(gameObject.tag.Contains("1"))
             {
-                numObjectsToCollect = GameObject.FindGameObjectsWithTag("Object1").Length;
+                //numObjectsToCollect = GameObject.FindGameObjectsWithTag("Object1").Length;
             }
             else if (gameObject.tag.Contains("2"))
             {
-                numObjectsToCollect = GameObject.FindGameObjectsWithTag("Object2").Length;
+                //numObjectsToCollect = GameObject.FindGameObjectsWithTag("Object2").Length;
             }
             UpdateObjectTexts();
         }
@@ -32,11 +32,11 @@ public class ShapeBin : baseInteractionObjectClass {
             gManager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
             if (gameObject.tag.Contains("1"))
             {
-                numObjectsToCollect = GameObject.FindGameObjectsWithTag("Object1").Length;
+                //numObjectsToCollect = GameObject.FindGameObjectsWithTag("Object1").Length;
             }
             else if (gameObject.tag.Contains("2"))
             {
-                numObjectsToCollect = GameObject.FindGameObjectsWithTag("Object2").Length;
+                //numObjectsToCollect = GameObject.FindGameObjectsWithTag("Object2").Length;
             }
             UpdateObjectTexts();
             //RpcUpdateObjectTexts(numObjectsCollected + "/" + numObjectsToCollect);

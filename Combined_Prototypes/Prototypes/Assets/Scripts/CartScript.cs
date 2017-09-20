@@ -21,7 +21,7 @@ public class CartScript : baseInteractionObjectClass {
         {
             //CmdUpdateScore(2);
             gManager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
-            RpcUpdateObjectTexts(gManager.objectsCollected + "/" + gManager.objectGoal);
+            //RpcUpdateObjectTexts(gManager.objectsCollected + "/" + gManager.objectGoal);
         }
     }
 
